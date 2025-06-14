@@ -1,1 +1,1 @@
-# Skypro-Pyton
+# Skypro-Python
