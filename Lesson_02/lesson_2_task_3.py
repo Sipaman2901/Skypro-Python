@@ -1,16 +1,16 @@
-def square(side):
+import math
 
+
+def square(side):
     area = side ** 2
     if not isinstance(side, int):
-        # Ручное округление вверх:
-        # Если есть дробная часть, увеличиваем на 1
-        area = int(area) + (1 if area > int(area) else 0)
+        area = math.ceil(area)
     return area
 
 
 # Ввод стороны квадрата от пользователя
 side_input = input("Введите длину стороны квадрата: ")
-side = float(side_input)  # Преобразуем в число
+side = float(side_input)  # Преобразуем в число (дробное или целое)
 
 # Вычисление площади
 area = square(side)
