@@ -6,7 +6,7 @@ def is_year_leap(year):
 
 
 # Вызываем функцию с запросом года и сохраняем результат
-year = 2024
+year = int(input("Введите год: "))
 result = is_year_leap(year)
 
 # Выводим результат в формате "год <номер года>: <True|False>"
