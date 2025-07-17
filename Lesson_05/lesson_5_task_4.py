@@ -13,11 +13,11 @@ try:
 
     # Находим и заполняем поле username
     username = driver.find_element(By.ID, "username")
-    username.send_keys("tomsmith")
+    username.send_keys("MrAnderson")
 
     # Находим и заполняем поле password
     password = driver.find_element(By.ID, "password")
-    password.send_keys("SuperSecretPassword!")
+    password.send_keys("TakeBluePill")
 
     # Находим и нажимаем кнопку Login
     login_button = driver.find_element(By.CSS_SELECTOR,
